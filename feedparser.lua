@@ -317,7 +317,7 @@ local function parse_rss(root, base_uri)
 		--image
 		elseif tag=='image' or tag=='rdf:image' then
 			feed.image={
-				title=el:getChild('title'):getText(),
+				title=(el:getChild('title') or blanky):getText(),
 				link=(el:getChild('link') or blanky):getText(),
 				width=(el:getChild('width') or blanky):getText(),
 				height=(el:getChild('height') or blanky):getText()
