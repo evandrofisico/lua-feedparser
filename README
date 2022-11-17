@@ -1,3 +1,10 @@
+As feedparser seems to have no have no new development or bugfixes in the last
+8 years, I'm forking it and making my bugfixes public.
+
+Below, the original readme.
+
+-------
+
 RSS and Atom feed parser, using expat via the luaExpat binding. 
 Similar to the Universal Feed Parser (http://feedparser.org), 
 but less good.
