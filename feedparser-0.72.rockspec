@@ -11,7 +11,7 @@ description = {
 RSS and Atom feed parser, using expat via the luaExpat binding. 
 Similar to the Universal Feed Parser (http://feedparser.org), 
 but less good.]],
-   homepage = "https://github.com/slact/lua-feedparser",
+   homepage = "https://github.com/evandrofisico/lua-feedparser",
    license = "BSD"
 }
 dependencies = {
