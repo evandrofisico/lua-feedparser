@@ -2,7 +2,7 @@
 package = "feedparser"
 version = "0.72-1"
 source = {
-   url="git://github.com/evandrofisico/lua-feedparser",
+   url="https://github.com/evandrofisico/lua-feedparser.git",
    tag="0.72-1"
 }
 description = {
