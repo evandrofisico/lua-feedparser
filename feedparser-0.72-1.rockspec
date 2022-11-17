@@ -1,9 +1,9 @@
 #!/bin/lua
 package = "feedparser"
-version = "0.72"
+version = "0.72-1"
 source = {
    url="git://github.com/evandrofisico/lua-feedparser",
-   tag="0.72"
+   tag="0.72-1"
 }
 description = {
    summary = " A decent RSS and Atom XML feed parser",
