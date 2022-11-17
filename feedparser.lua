@@ -336,6 +336,12 @@ local function parse_rss(root, base_uri)
 	end
 	
 	res.entries=parse_entries(channel:getChildren('item'),'rss', channel_base)
+	-- a version 1.0 feed does not add the item list as children of the channel
+        -- entity, but the root
+        if res.version == "rss10" then
+           res.entries=parse_entries(root:getChildren('item'),'rss', channel_base)
+        end
+
 	return res
 end
 
